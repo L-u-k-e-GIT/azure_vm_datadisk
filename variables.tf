@@ -42,7 +42,11 @@ variable "MD_DISK_NUMBER" {
   default     = ""
 }
 
-
+variable "MD_ZONE" {
+  description = "Disk sequential number"
+  type        = string
+  default     = ""
+}
 
 
 

@@ -8,7 +8,7 @@ resource "azurerm_managed_disk" "managed_disk" {
   storage_account_type = var.MD_SA_TYPE
   create_option        = "Empty"
   disk_size_gb         = var.MD_SA_SIZE
-
+  zone                 = var.MD_ZONE
 }
 
 resource "azurerm_virtual_machine_data_disk_attachment" "managed_disk_attach" {
