@@ -8,7 +8,7 @@ from main.tf you can call module
 module "vm_data_disk" {
   
   source                 = "git::https://github.com/L-u-k-e-GIT/azure_vm_datadisk"
-  #### Naming Convention variable you can use your own or just put a variable with disk name
+  Naming Convention variable you can use your own or just put a variable with disk name
   MD_DISKDATA_PREFIX     = var.DISKDATA_PREFIX
   MD_PROJECT_NAME        = var.PROJECT_NAME
   MD_SUBSCRIPTION_PREFIX = var.SUBSCRIPTION_PREFIX
