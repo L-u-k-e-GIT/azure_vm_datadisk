@@ -24,3 +24,4 @@ module "vm_data_disk" {
   MD_VM_ID               = var.VM_ID                          # ID of vm where to attach disk
   
 }
+# azure_vm_datadisk
