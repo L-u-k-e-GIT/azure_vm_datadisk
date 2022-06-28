@@ -1,9 +1,9 @@
 # azure_vm_datadisk
 Create and attach a data disk to a vm
 
-Example of usage
-from main.tf you can call module
+**Example of usage**
 
+```erlang
 
 module "vm_data_disk" {
   
@@ -24,4 +24,8 @@ module "vm_data_disk" {
   MD_VM_ID               = var.VM_ID                          # ID of vm where to attach disk
   
 }
-# azure_vm_datadisk
+```
+
+
+
+# azure_vm_datadisk****``****
