@@ -14,7 +14,7 @@ resource "azurerm_managed_disk" "managed_disk" {
 resource "azurerm_virtual_machine_data_disk_attachment" "managed_disk_attach" {
   managed_disk_id    = azurerm_managed_disk.managed_disk.id
   virtual_machine_id = var.MD_VM_ID
-  lun                = 0
+  lun                = var.MD_DISK_NUMBER
   caching            = "None"
 }
 
